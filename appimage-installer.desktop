@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=AppImage Installer
+Exec=/.appimage-installer/appimage_installer/appinstallerGUI.py
+Icon=/.appimage-installer/appimage_installer/appimage-installer.png
+Type=Application
+Terminal=false
+Categories=Utility
