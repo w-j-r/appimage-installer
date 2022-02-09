@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=AppImage Installer
-Comment=A simple program to integrate AppImages into the GNU/Linux system.
-Exec=/.appimage-installer/appimage_installer/appinstallerGUI.py
-Icon=/.appimage-installer/appimage_installer/appimage-installer.png
-Type=Application
-Terminal=false
-Categories=Utility
