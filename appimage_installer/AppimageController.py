@@ -190,7 +190,7 @@ class Controller:
         # match up icon to appname
         for icon in icon_match_list:
             for name in title_list:
-                if name.lower() in icon:
+                if name.lower() in icon.lower():
                     self.icon_name = icon
         
         # return the cwd and icon
@@ -212,7 +212,7 @@ class Controller:
         for files in os.listdir():
             if files.endswith(".desktop"):
                 for name in title_list:
-                    if name in files:
+                    if name.lower() in files.lower():
                         desktop_file = files
         
         # get text from desktop file
